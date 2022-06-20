@@ -1,0 +1,33 @@
+.container {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+input#search {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid red;
+    color: red;
+    box-sizing: border-box;
+    font-family: 'Arvo';
+    font-size: 40px;
+    padding: 12px 10px;
+    width: 60vw;
+}
+
+input#search:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 600px) {
+    input#search {
+        width: 60vw;
+    }
+}
+
+.SearchFadeBottom {
+    height: 58rem;
+    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.925), #000000);
+  }
